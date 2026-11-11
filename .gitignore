@@ -1,0 +1,24 @@
+# Secrets — never commit these. This file must be in the FIRST commit.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*secret*
+*credentials*
+
+# Logs and local working files
+*.log
+logs/
+notes-private/
+drafts-private/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local model / runtime artifacts
+*.gguf
+ollama-data/
